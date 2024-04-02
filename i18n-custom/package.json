@@ -1,0 +1,17 @@
+{
+  "name": "i18n-custom",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "en.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "exports": {
+    "./en": {
+       "default": "./dist/en.js"
+    }
+  }
+}
